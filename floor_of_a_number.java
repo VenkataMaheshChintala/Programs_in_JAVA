@@ -1,8 +1,7 @@
-// given a list and a target if the target is present in the list return the target if not return the element that is greater than the target
+// given a list and a target if the target is present in the list return the target if not return the element that is greatest smallest number than the target
 // works only for sorted lists
 import java.util.Scanner;
-
-public class ceiling_of_a_number {
+public class floor_of_a_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no.of elements : ");
@@ -32,7 +31,7 @@ public class ceiling_of_a_number {
             }
         }
         if(flag==false) {
-            System.out.print(list[start]);
+            System.out.print(list[end]);
         }
     }
 }
